@@ -15,9 +15,37 @@ body {
     color: #202124;
 }
 
-header {
+
+/*-------------------------Navigation section -----------------------*/
+
+nav {
     background-color: rgb(26, 35, 126);
     color: rgb(255, 255, 255);
+}
+
+header nav .image {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 2%;
+    font-size: 32px;
+}
+
+header nav .brand-logo {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+
+/*-------------------------Main section -----------------------*/
+
+.logo {
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    width: 60px;
 }
 
 h2 {
@@ -39,18 +67,14 @@ p {
     margin-bottom: .5rem;
 }
 
-.p-tag {
-    line-height: 20px;
-    font-weight: 400px;
-    font-size: 14px;
-    font-style: normal;
-    color: rgb(26, 35, 126);
-}
+
+/*-------------------------form section -----------------------*/
 
 .btn {
-    width: 180px;
+    width: 215px;
+    height: 6.5vh;
     line-height: 36px;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 14px;
     font-style: normal;
     background-color: rgb(26, 35, 126);
@@ -64,27 +88,10 @@ p {
     border: 1px solid rgb(26, 35, 126);
 }
 
-.logo {
-    margin-top: 3.5rem;
-    margin-bottom: 1.5rem;
-    width: 60px;
-}
-
-.logo1 {}
-
-.brand-logo {
-    margin-left: 20px;
-    margin-top: .6rem;
-}
-
-span {
+.p-tag {
+    line-height: 20px;
     font-weight: 400px;
-    font-size: 24px;
+    font-size: 14px;
     font-style: normal;
-    margin-top: auto;
-}
-
-li {
-    font-weight: 400px;
-    margin-right: 25px;
+    color: rgb(26, 35, 126);
 }
